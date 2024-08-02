@@ -1,0 +1,42 @@
+//ToDo 1. HouseholdExpenses 型の変数を宣言し、インスタンスを生成して初期化してください
+
+
+//ToDo 2. ユーザからの入力値が入った変数 input を「,」を基準に分割し、配列 inputArray に代入してください
+
+　【Hint】・inputArray に「new String[1]」がすでに代入されていますが、
+           これは仮置きの値なので、消してしまって構いません
+
+
+//ToDo 3. inputArray の項番「2」の要素 (支出金額) を int に変換し、変数 amount に代入してください
+
+　【Hint】
+        ・2. 同様、仮置きされている値「0」は消してしまって構いません
+        ・文字列型から整数型への変換には Integer クラスのメソッドを利用します
+        　どのメソッドだったか忘れてしまった場合は『代表的な標準API』の講義を参照してください
+
+
+//ToDo 4. 以下の指示に従って、HouseholdExpenses インスタンスから addExpense メソッドを呼び出してください
+
+    ・以下の引数を渡す
+            1. inputArray の項番「0」の要素 …… 支出分類
+            2. inputArray の項番「1」の要素 …… 概要
+            3. amount …… 支出金額(整数型に変換したもの)
+
+
+//ToDo 5. input の値が「yes」でないとき、変数 isContinueAdd を false にする処理を追加してください
+
+　【Hint】・文字列同士の比較は　String クラスのあるメソッドを使えば実現できますが、
+          「一致していないとき」に isContinue を変更する処理であることに注意してください
+           一致していれば true が返ってくるので、その否定(「!」)を条件式にする必要がありますね
+
+
+//ToDo 6. HouseholdExpenses インスタンスから printSummary メソッドを呼び出してください
+
+
+//ToDo 7. 以下の指示に従って、支出情報一覧を参照するか否かの分岐処理を追加してください
+
+    ・input の値が「exit」である場合
+        ⇒ isContinueCheck を false に設定
+    ・そうでない場合
+        ⇒ HouseholdExpenses インスタンスから printApplicableExpenses メソッドを呼び出し
+        　 引数には input を渡す
