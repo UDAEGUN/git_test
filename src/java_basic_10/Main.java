@@ -13,28 +13,23 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
-        /* 利用種別　(0:お預入れ 1:お引き出し のいずれか) */
-        int inputType;
-        /* 預け入れ or 引き出し金額 */
-        int inputAmount;
+        int inputType;      // 利用種別　(0:お預入れ 1:お引き出し のいずれか)
+        int inputAmount;    // 取引金額
 
         //利用種別の入力を受け付ける
-        System.out.print("ご利用種別を入力してください。　0:お預入れ 1:お引き出し\n>");
+        System.out.print("ご利用種別を入力してください。(0:お預入れ 1:お引き出し) : ");
         inputType = sc.nextInt();
 
         //利用種別の入力内容チェック
         while (inputType != 0 && inputType != 1) {
-            System.out.print("ご利用種別を正しく入力してください。　0:お預入れ 1:お引き出し\n>");
+            System.out.print("ご利用種別を正しく入力してください。(0:お預入れ 1:お引き出し) : ");
             inputType = sc.nextInt();
         }
 
         //預け入れ or 引き出し金額の入力を受け付ける
-        System.out.print("ご利用金額を入力してください。\n>");
+        System.out.print("ご利用金額を入力してください。 : ");
         inputAmount = sc.nextInt();
 
         //ToDo 3. 指示に従い、必要な処理を以下に記述してください
@@ -47,6 +42,4 @@ public class Main {
         }
 
     }
-
-
 }

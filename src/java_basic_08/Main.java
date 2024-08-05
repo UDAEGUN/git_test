@@ -12,17 +12,9 @@ package java_basic_08;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        System.out.println("それでは、別のクラスのメソッドを呼び出してみましょう！");
-
         //ToDo 3. の指示に従って、この行の下に必要な処理を記述してください
-        MyFirstClass myInstance = new MyFirstClass();
-        myInstance.sayHello();
-
-        System.out.println("無事呼び出すことができました！");
-
+        MyFirstClass instance = new MyFirstClass();
+        instance.sayHello();
     }
-
 }

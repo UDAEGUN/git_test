@@ -14,29 +14,20 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("1人目の人物について、半角スペース区切りで「名前」と「年齢」を入力してください。\n>");
         //ToDo 3. ひとつめのインスタンス生成
-        Person personA = new Person(sc.next(), sc.nextInt());
+        System.out.print("1. 名前、年齢 : ");
+        Person person1 = new Person(sc.next(), sc.nextInt());
 
-//        //以下のように一旦変数で受け取っても OK
-//        String name = sc.next();
-//        int age = sc.nextInt();
-//        Person personA = new Person(name, age);
-
-        System.out.print("2人目の人物について、半角スペース区切りで「名前」と「年齢」を入力してください。\n>");
+        System.out.print("2. 名前、年齢 : ");
         //ToDo 4. ふたつめのインスタンス生成
-        Person personB = new Person(sc.next(), sc.nextInt());
+        Person person2 = new Person(sc.next(), sc.nextInt());
 
         //ToDo 5. 3. および 4. で生成したそれぞれのインスタンスから自己紹介メソッドを呼び出す
-        personA.introduce();
-        personB.introduce();
+        person1.introduce();
+        person2.introduce();
 
     }
-
 }

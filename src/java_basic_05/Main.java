@@ -13,15 +13,11 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
 
         /* ユーザが入力したテストの点数を受け取る */
-        System.out.print("テストの点数を「0～100」の範囲で入力してください。\n>");
-        int score = sc.nextInt();
+        System.out.print("点数 : "); int score = sc.nextInt();
 
         //ToDo 1. 変数「score」の値に応じて、以下のルールに従って判定結果を出力してください
         /*
@@ -32,20 +28,15 @@ public class Main {
          * ・50点未満 …… 「不可」
          */
         if (score < 0 || 100 < score) {
-            System.out.println("点数は0～100点の範囲で入力してください。");
+            System.out.print("点数は0～100点の範囲で入力してください。");
         } else if (90 <= score) {
-            System.out.println("優");
+            System.out.print("優");
         } else if (70 <= score) {
-            System.out.println("良");
+            System.out.print("良");
         } else if (50 <= score) {
-            System.out.println("可");
+            System.out.print("可");
         } else {
-            System.out.println("不可");
+            System.out.print("不可");
         }
-
-        }
-
-
-
-
+    }
 }

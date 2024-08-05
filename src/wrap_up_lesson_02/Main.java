@@ -12,25 +12,17 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
-        /* 支出情報の入力を続けるか管理するフラグ */
         boolean isContinueAdd = true;
-        /* 支出情報の詳細確認を続けるか管理するフラグ */
         boolean isContinueCheck = true;
-        /* ユーザからの入力内容を保持する変数 */
         String input;
-        /* ユーザが入力した内容を「,」区切りで分割した配列([0]:支出分類,[1]:概要,[2]:支出金額) */
-        String[] inputArray;
+        String[] inputArray;    // ([0]:支出分類,[1]:概要,[2]:支出金額)
+
         //ToDo 1.
         HouseholdExpenses householdExpenses = new HouseholdExpenses();
 
-
         while (isContinueAdd) {
-
             System.out.println("\n追加する支出情報を次の形式で入力してください。　(支出分類),(概要),(支出金額)");
             System.out.print("Ex) 交際費,職場の飲み会,5000\n>");
             input = sc.nextLine();
@@ -38,11 +30,11 @@ public class Main {
             //ToDo 2.
             inputArray = input.split(",");
 
-            //「,」区切りで3つの項目が正しく入力されているかチェック
             if (inputArray.length == 3) {
 
                 //ToDo 3.
                 int amount = Integer.parseInt(inputArray[2]);
+
                 //ToDo 4.
                 householdExpenses.addExpense(inputArray[0], inputArray[1], amount);
 
@@ -58,7 +50,6 @@ public class Main {
             } else {
                 System.out.println("\n入力の形式が間違っています。正しく入力し直してください。");
             }
-
         }
 
         //ToDo 6.
@@ -76,9 +67,6 @@ public class Main {
             } else {
                 householdExpenses.printApplicableExpenses(input);
             }
-
         }
-
     }
-
 }

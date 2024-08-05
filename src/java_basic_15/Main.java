@@ -11,7 +11,6 @@ package java_basic_15;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
 
         //三角形のインスタンス生成
@@ -23,11 +22,12 @@ public class Main {
         rectangle.setWidth(5);
 
         //ToDo 3.
-        CalculableShape shape = triangle;
-//        CalculableShape shape = rectangle;
+        CalculableShape shape1 = triangle;
+        CalculableShape shape2 = rectangle;
 
         //ToDo 4.
-        System.out.println("この図形の面積は" + shape.calculateArea() + "です！");
+        System.out.println("shape1の面積 : " + shape1.calculateArea());
+        System.out.println("shape2の面積 : " + shape2.calculateArea());
 
     }
 

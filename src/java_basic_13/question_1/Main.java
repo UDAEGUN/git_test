@@ -15,26 +15,21 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
-        /* テキストの入力を続けるか管理するフラグ */
         boolean isContinue = true;
-        /* ユーザからの入力内容を保持する変数 */
         String input;
+
         //ToDo 1.
         List<String> textList = new ArrayList<>();
 
-
         while (isContinue) {
-
             System.out.print("テキストを入力してください。\n>");
             input = sc.nextLine();
 
             //ToDo 2.
             input = input.replaceAll("　", "").replaceAll(" ", "");
+
             //ToDo 3.
             textList.add(input);
 
@@ -46,7 +41,6 @@ public class Main {
             if (!"yes".equals(input)) {
                 isContinue = false;
             }
-
         }
 
         //ToDo 5.
@@ -58,5 +52,4 @@ public class Main {
         }
 
     }
-
 }

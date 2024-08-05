@@ -4,20 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71ef1552-00fd-49ff-8b3d-264f3e757ff9" name="Changes" comment="msg" />
+    <list default="true" id="27a0472e-bd97-4d10-a5a3-3743ac39a7ad" name="Changes" comment="msg">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_01/lianxi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_03/question_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_03/question_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_03/question_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_03/question_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_05/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_06/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_07/question_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_07/question_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_07/question_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_07/question_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_08/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_08/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_08/MyFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_08/MyFirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_09/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_09/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_09/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_10/BankAccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_10/BankAccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_12/PersonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_12/PersonBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_13/question_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_13/question_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_13/question_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_13/question_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_14/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_14/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_14/GoldCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_14/GoldCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_14/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_15/CalculableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_15/CalculableShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_15/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_15/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_15/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_basic_15/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_basic_15/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrap_up_lesson_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrap_up_lesson_01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrap_up_lesson_02/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrap_up_lesson_02/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrap_up_lesson_02/HouseholdExpenses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrap_up_lesson_02/HouseholdExpenses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrap_up_lesson_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrap_up_lesson_02/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UDAEGUN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/UDAEGUN/git_test.git&quot;,
+    &quot;accountId&quot;: &quot;fc430b0b-5ee7-4ec3-a6db-cceb96ddcd07&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2k5Rh85JTkMCkHrjOt1WS84ZODv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2k5kn2iTClh2bVjPuIcyWWTzGqa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,14 +80,75 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_03.question_1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_05.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_06.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_07.question_1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_07.question_2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_08.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_09.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_11.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_12.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_13.question_1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_13.question_2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_14.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_basic_15.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wrap_up_lesson_01.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wrap_up_lesson_02.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;training&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.java_basic_03.question_1.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic_03.question_2.Main" />
+      <module name="git_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic_03.question_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java_basic_03.question_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_basic_03.question_1.Main" />
+      <module name="git_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_basic_03.question_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.java_basic_03.question_1.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.java_basic_03.question_1.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,26 +160,52 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71ef1552-00fd-49ff-8b3d-264f3e757ff9" name="Changes" comment="" />
-      <created>1722571568038</created>
+      <changelist id="27a0472e-bd97-4d10-a5a3-3743ac39a7ad" name="Changes" comment="" />
+      <created>1722580989104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722571568038</updated>
-      <workItem from="1722571569042" duration="188000" />
+      <updated>1722580989104</updated>
+      <workItem from="1722580990245" duration="54000" />
+      <workItem from="1722581052337" duration="51000" />
+      <workItem from="1722581243395" duration="10000" />
+      <workItem from="1722581268382" duration="15000" />
+      <workItem from="1722581465068" duration="796000" />
+      <workItem from="1722582275334" duration="55000" />
+      <workItem from="1722582344962" duration="5000" />
+      <workItem from="1722582358277" duration="6000" />
+      <workItem from="1722582373090" duration="5000" />
+      <workItem from="1722582410120" duration="10000" />
+      <workItem from="1722582440809" duration="561000" />
+      <workItem from="1722583021622" duration="153000" />
+      <workItem from="1722583245214" duration="8000" />
+      <workItem from="1722583280085" duration="195000" />
+      <workItem from="1722583577232" duration="26000" />
+      <workItem from="1722583630308" duration="135000" />
+      <workItem from="1722583803369" duration="1344000" />
+      <workItem from="1722585176814" duration="414000" />
+      <workItem from="1722585763293" duration="2017000" />
+      <workItem from="1722587895600" duration="149000" />
+      <workItem from="1722588081381" duration="203000" />
+      <workItem from="1722588338532" duration="13000" />
+      <workItem from="1722588358443" duration="2614000" />
+      <workItem from="1722817759304" duration="26000" />
+      <workItem from="1722817790242" duration="9862000" />
     </task>
-    <task id="LOCAL-00001" summary="msg">
-      <option name="closed" value="true" />
-      <created>1722571632093</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1722571632093</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="msg" />

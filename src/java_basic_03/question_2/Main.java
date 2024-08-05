@@ -1,5 +1,7 @@
 package java_basic_03.question_2;
 
+import java.util.Random;
+
 /**
  * 演算・文字列結合　Activity ②.
  *
@@ -11,16 +13,13 @@ package java_basic_03.question_2;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        int base = 10;
-
         //ToDo 1. 以下の条件に従って、2つの変数を初期化してください
         /*
          *  andFlag ... baseが「1以上 かつ 10未満」を表す式
          *  orFlag ... baseが「1未満 または 10以上」を表す式
          */
+        int base = 3;
         boolean andFlag = 1 <= base && base < 10;
         boolean orFlag = base < 1 || 10 <= base;
 
@@ -41,7 +40,10 @@ public class Main {
          *  今度は変数 base の初期値を「10」以外の値に変更し、
          *  その値に応じて、出力結果が変わるのを確認してみましょう
          */
-
+        base = new Random().nextInt(21) - 10;
+        andFlag = 1 <= base && base < 10;
+        orFlag = base < 1 || 10 <= base;
+        System.out.println("\nbase は1以上かつ10未満である: " + andFlag);
+        System.out.println("base は1未満または10以上である: " + orFlag);
     }
-
 }

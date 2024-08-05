@@ -13,37 +13,22 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
         /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
 
         //ToDo 1. 「1行分の文字列」を標準入力で受け付け、変数nameに代入してください
-        System.out.print("あなたの名前を教えてください。\n>");
-        String name = sc.nextLine();
+        System.out.print("名前 : "); String name = sc.next();
 
         //ToDo 2. 「整数」を標準入力で受け付け、変数ageに代入してください
-        System.out.print("あなたの年齢を教えてください。\n>");
-        int age = sc.nextInt();
+        System.out.print("年齢 : "); int age = sc.nextInt();
 
         //ToDo 3. 「真偽値」を標準入力で受け付け、変数experienceに代入してください
-        System.out.print("プログラミング経験の有無を true or false で教えてください。\n>");
-        boolean experience = sc.nextBoolean();
-
-        System.out.println("----------------------------");
-        System.out.println("アンケートへのご回答、ありがとうございました。");
+        System.out.print("留学経験 : "); boolean experience = sc.nextBoolean();
 
         //ToDo 4. 以下の形式で上記3つの変数の値を標準出力してください
-        /*
-         *  name ... 「お名前: (nameの値) 」
-         *  age ... 「年齢: (ageの値)」
-         *  experience ... 「プログラミング経験有フラグ: (experienceの値)」
-         */
         System.out.println("お名前: " + name);
         System.out.println("年齢: " + age);
-        System.out.println("プログラミング経験有フラグ: " + experience);
-
+        System.out.println("留学経験: " + experience);
     }
-
 }

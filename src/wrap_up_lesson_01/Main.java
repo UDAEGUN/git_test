@@ -13,66 +13,31 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
-        /* 乱数生成用オブジェクト */
-        Random rand = new Random();
-        /* じゃんけんの手を表す配列 */
-        String[] hands = {"グー", "チョキ", "パー"};
-        /* ユーザが入力した「じゃんけんをプレイする回数」を保持する変数 */
-        int numOfMatch;
-        /* ユーザが選んだ手を表す変数 (0:グー 1:チョキ 2:パー のいずれか) */
-        int yourHand;
-        /* コンピュータが選んだ手を表す変数 (0:グー 1:チョキ 2:パー のいずれか) */
-        int comHand;
+        Random ran = new Random();
+        String[] arr = { "グー", "チョキ", "パー" };
 
-        System.out.print("何回勝負でゲームをはじめますか？\n>");
-        numOfMatch = sc.nextInt();
-        System.out.println("じゃんけんゲームを開始します");
+        System.out.print("プレイ回数 : ");
+        int count = sc.nextInt();
 
-        //ToDo 『ToDoList.txt』内の指示に従って、じゃんけんゲームを開発してください
-        //ToDo1
-        for (int i = 1; i <= numOfMatch; i++) {
+        for (int i = 0; i < count; i++) {
+            int bot = ran.nextInt(3);
 
-            //ToDo2
-            System.out.println("\n------------" + i + "回戦開始！------------\n");
-
-            //ToDo3
-            System.out.print("あなたが出す手を選んでください　0:グー 1:チョキ 2:パー\n>");
-            yourHand = sc.nextInt();
-
-            //ToDo4
-            while (yourHand != 0 && yourHand != 1 && yourHand != 2) {
-                System.out.print("出す手は次の選択肢の中から選んでください　0:グー 1:チョキ 2:パー\n>");
-                yourHand = sc.nextInt();
+            System.out.println(i + 1 + "回戦\nグー(1), チョキ(2), パー(3) : ");
+            int user = sc.nextInt() - 1;
+            while (user != 0 && user != 1 && user != 2) {
+                System.out.print("もう一度入力してください\n\nグー(1), チョキ(2), パー(3) : ");
+                user = sc.nextInt() - 1;
             }
 
-            //ToDo5
-            comHand = rand.nextInt(3);
+            System.out.printf("AI : %s, ユーザー : %s\n", arr[bot], arr[user]);
 
-            //ToDo6
-            System.out.println("あなたの手：" + hands[yourHand]);
-            System.out.println("COM の手：" + hands[comHand]);
-
-            //ToDo7
-            if (yourHand == comHand) {
-                System.out.println("あいこです");
-            } else if (yourHand == 0 && comHand == 1 || yourHand == 1 && comHand == 2 || yourHand == 2 && comHand == 0) {
-                System.out.println("あなたの勝ちです！");
-            } else {
-                System.out.println("あなたの負けです……");
-            }
-
-            //ToDo8
-            System.out.println("\n------------" + i + "回戦終了！------------\n");
-
+            String msg = "あいこです\n\n";
+            if (bot == 0 && user == 2 || bot == 1 && user == 0 || bot == 2 && user == 1) msg = "勝ちです\n\n";
+            else if (bot == 0 && user == 1 || bot == 1 && user == 2 || bot == 2 && user == 0) msg = "負けです\n\n";
+            System.out.print(msg);
         }
-
-        System.out.println("じゃんけんゲームを終了します…… またプレイしてね！");
-
+        sc.close();
     }
-
 }

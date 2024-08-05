@@ -15,20 +15,15 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-        
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
-        /* 注文を続けるか管理するフラグ */
         boolean isContinue = true;
-        /* ユーザからの入力内容を保持する変数 */
         String input;
-        /* 注文の合計金額 */
         int amount = 0;
 
         //ToDo 1.
         Map<String, Integer> menuMap = new HashMap<>();
+
         //ToDo 2.
         menuMap.put("マルゲリータ", 2000);
         menuMap.put("ミックスピザ", 2500);
@@ -37,7 +32,6 @@ public class Main {
         menuMap.put("ソフトドリンク", 150);
 
         while (isContinue) {
-
             System.out.println("\nご注文をどうぞ！");
             System.out.print("注文したい商品を入力してください。\n>");
             input = sc.nextLine();
@@ -60,11 +54,7 @@ public class Main {
                     isContinue = false;
                 }
             }
-
         }
-
         System.out.println("\nお会計は合計で" + amount + "円です。30分以内にお届けします！");
-
     }
-
 }

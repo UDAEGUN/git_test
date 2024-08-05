@@ -12,7 +12,6 @@ package java_basic_14;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
 
         //インスタンス生成
@@ -26,7 +25,5 @@ public class Main {
 
         //利用情報の出力
         myCard.printStatement();
-
     }
-
 }

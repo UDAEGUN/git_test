@@ -10,9 +10,7 @@ package java_basic_07.question_2;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
         String[] zodiac = {"子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"};
 
         //ToDo 1. 拡張 for 文を使って、上記の配列 zodiac が持つ要素を順番に出力してください
@@ -24,6 +22,5 @@ public class Main {
         for (String s : zodiac) {
             System.out.println(s);
         }
-
     }
 }

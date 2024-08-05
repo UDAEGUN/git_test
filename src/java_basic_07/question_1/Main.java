@@ -10,9 +10,7 @@ package java_basic_07.question_1;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
         //ToDo 1. for 文を使って、以下の内容の標準出力を繰り返してください
         /*
          *  「9 × (1～9) = (計算結果)」の形式で標準出力を繰り返す
@@ -20,10 +18,8 @@ public class Main {
          *  ※ 9 × 1 = 9
          *  　 9 × 2 = 18 ... と順番に出力すること
          */
-        for (int i = 1; i <= 9; i++) {
-            System.out.println(i+".  9 × " + i + " = " + (9 * i));
+        for (int i = 1; i < 10; i++) {
+            System.out.printf("9 * %d = %d\n", i, 9 * i);
         }
-
     }
-
 }

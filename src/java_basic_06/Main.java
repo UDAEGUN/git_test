@@ -13,30 +13,18 @@ import java.util.Scanner;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
-
-        /* 標準入力用オブジェクト */
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("任意の整数を3つ、半角スペース区切りで入力してください。\n>");
-
         //ToDo 1. 整数値型・要素数3個の配列を宣言し、標準入力から受け取った3つの整数を格納してください
-        int[] array = {sc.nextInt(), sc.nextInt(), sc.nextInt()};
+        int[] arr = new int[3];
 
-//        //以下のように簡略化していない記述でもOK
-//        int[] array = new int[3];
-//        array[0] = sc.nextInt();
-//        array[1] = sc.nextInt();
-//        array[2] = sc.nextInt();
+        System.out.print("整数3つ : ");
+        arr[0] = sc.nextInt();
+        arr[1] = sc.nextInt();
+        arr[2] = sc.nextInt();
 
         //ToDo 2. 以下の形式に従い、配列内のすべての要素の値を足し合わせた結果を出力してください
-        /*
-         *  「3つの数の合計は (合計値)」
-         */
-
-        System.out.println("3つの数の合計は " + (array[0] + array[1] + array[2]));
-
+        System.out.print("合計 -> " + (arr[0] + arr[1] + arr[2]));
     }
-
 }

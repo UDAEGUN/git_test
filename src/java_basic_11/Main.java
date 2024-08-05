@@ -11,7 +11,6 @@ package java_basic_11;
  * </pre>
  */
 public class Main {
-
     public static void main(String[] args) {
 
         BankAccountManager bankAccountManager = new BankAccountManager();
@@ -27,5 +26,4 @@ public class Main {
         bankAccountManager.withdraw(400000);
 
     }
-
 }
